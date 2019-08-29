@@ -1,1 +1,85 @@
 # Object-Security-UDP-For-IoT
+
+Instructions
+
+Our project was made using the cryptography library in python.
+
+1. Make sure the python cryptography library is up to date.
+
+Type in terminal:
+pip install cryptography --upgrade
+
+2. Make sure sure you save the server.key (Appendix B) and the client.key (Appendix C) in a folder called certs in the same directory you run the code in. 
+
+3. Save and keep the dh.py (Appendix D in the same directory as all the other python scripts.
+
+4. Run server.py (Appendix E)
+
+5. Run cache.py (Appendix F)
+
+6. Run client.py (Appendix G)
+
+
+The client key (client.key) used in the project for testing:
+
+-----BEGIN PRIVATE KEY-----
+MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCp/8aHDzshNleR
+yYexpoJ/VJtjRphn67VlnYLam1GE6z/+PLLTvOk93i5DdNnxRwbCzUI0LjJmLuaF
+jeRDOymDy500dTOB520mcMaZgSmvzt55Z0+5f2rEo2mztv3O70Tps0GUQCw6eLbg
+sLmOrvyKlDwBhKtTlEfWWWhnF8gxjW+ka3BAlcrmw05XpBzAVhTiag2LBzGI/MMY
+O43aji8p6YAcA5+1RefpzT6tZ5oQkAfKcsRbNMYBf3ydVEwht4uRQAD+2ttEP6Yk
+6HArtWFBZESAlH8raEVExv7QBuMvdVKZkHwmtT/X4/mz0UG4d2Tvch6g2/jlUu5l
+5Zylaff1AgMBAAECggEBAIjMnPOeXBTT6BAXPqzEs4rHiOuQqaAm26hT4jMMfcMa
+lDqAmd8ty/vPSSdbZu50G4qzJi1bZ482+qZKkn9Poo6+UVkfXz2QABPI+OgaOnOR
+YxILAurhEAgBAFRwUzos7SWq7IDiSzUaYv/Y9tlNE0hpFQibvErbrhtdg1hCmQTV
+3lGIgWW1oPLatw2Kwp1JUs3Co3PnAjSLfw6zf1zxkgIUO57YRmEv7iNvyApxI0nU
+R+OLpTgOGvu//jlV1ixBmjujPIu02NtqV4iK1IR1mhJ3hOiVnNL+qtYyLeF4yvdY
+Q9Ark3boJfboTINa8n4JHbxXZmQYEuY6OmW2W2Nu9gECgYEA08BFbeJv3aLcKLLY
+RByRHxwcl1LTGGyo8YLecddJ4PMQkJlprfY26nOWUDQEkcWjol0nKkwrWc/7+96Z
+Rqbxx/6bt1PrBOtzugxC/EYSpy2UkQMEhJbE/xdo8zHpKfU5/ZmHytMCwv4kbUj/
+NTqo7RIQRpG+pIK4Y8EO6mj4QzUCgYEAzYX2rSqDmYS8rt7Lg/GVDvtkAim+2X5u
+k66S2sov0PVkdL4avUP28hsmhGi9sMHfWXoN67ocfB2nw4g8t8h1wUGW0kUFdv1v
+W6ka5kFelMwCnWdHeEqVtlzp/byCfooqHQx2sLaFRYb0OB8FKgKDGm8eZXk+hImH
+XVDZD0q2ucECgYBPoAl7nJ58NXWcSERSuHtJu4R00sxWbuXIi3GiVVaOpFgiR84Z
+gHB+ESEA386oEi3KLEVB/op+p1sWB0qT6ssYbYGYmpHRs8g8ucemnaL+AoHPVdcp
+FJjXY7IvYSFQicpYtpb9igOL141TGxP8rCZBn31HTB7oNc+okzxMoVRZ0QKBgQDK
+sqEDULbSJjPhVCLsUstsJ0wPRhTQdP2h8b8swdQ/Boa5DPVaTTm0tkpatOLA/bTG
+jrZEEx4c2zKmiis4JyDcJVAWubQWEwZNJI8/IKGjp0G89Cts3EKjxSeR9OXO332B
+gNVem+T9GYisAQwazrd2zrjv45BhLzKuOhqaFln5AQKBgQCxh16fx3mq+B8o+Ft4
+KU5EpP61FyTwC52vmmvh8kLy2buQxu0z338qmQnyvJjCaHvfciQNt0a7CpCc5dw0
+Eq74Hauk2kkVeBs8F+MLl84ODxxsy4AjMigbwFiG4aRs6QfSOXvz1i2ysNoBayOz
+J7zYCRC644GAmRipsB1KamzPow==
+-----END PRIVATE KEY-----
+
+
+The server key (server.key) used in the project for testing:
+
+-----BEGIN PRIVATE KEY-----
+MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDXg/57pDYc7F/W
+VsvtBwTUYtpOTRL/MeiRgCRNtz6CTH2H7J4yAQBYzPTKWdIIUHs4NPCO8SgSwA6B
+q9GjxZO2yLUS7TzPYcUJVpl9lLaYmgsQQ7Q2+6PUZMq8EP9peJcOgxtuOJ/xvz5T
+5mb+5bDPPxx3ueN/LL9eebBd8rlNYyGdtof419J7BsHQucPLPy9sdV5OPXb4079O
+2hx2ppyEOpfCTq+A9X/cXpvvmeOoEdf9HeDALY4YH6mYI0bzNznwot1bmpeOrASH
+lvKmyI2b5zCvdOzwywpICQ8BI/JMAXekchOl1Tisg5ZLIYI46xImSMLlpOlB+qxt
+7pFRlkeXAgMBAAECggEBAIQRVgSst6B31a8Cl4sUDwib3022e5q5Gdz4GscpMPwm
+JZMDFFpuNKk2SBgsfMItl6T1BCmEbNs4qGscQKbMr92GFziW+vnW3yj+0aacWF0h
+oQABjVFYWagRcA9Zlzsp89+nxkqAFrvNR0Og4KL5XKVT9n0EA/5uDIO3rLWVxao+
+om+MUBwoRjyshFlbWaZxKlAZ5UkLl1K0WTYbhG9Cd4mFF206tK2Sv2xL7R8W0eQ6
+1WiciaWxLHslwrq6YoOYRB/Wy7r1giVxEZhKUIfs8YVuAFArc/J/DMwlgkwrtNpv
+0zu2Nhvr9SNMyaZsYcHQDH4PcRLvvrfX53rD7oWjXpkCgYEA701J1IoUvf4o3Q2S
+LTfcYydhIqzNQAnltV+QuBK/fRkLLXkD92y/at6iVnvP+nr9dBLlHIvfdXSmKDh6
+T13K4C2/J3BDmkGYdE0ayyHaR0/hltKPbi5xgaDbhdRn2lNa4CmvvUWjGbBUm1hl
+fTbnOJ1wrX6jRGGbEkitXLCBvZMCgYEA5o3OBSr5jXrAhuAb2/5fw+rxyjZZpAP8
+g/ZVAlXMChi6pNhoZGhUrCiOWQ2liFfXKsJ9pVt+5AdxIVjydjXL97Kdximlwa0A
+poYMCYUjWdT6Scfp4uaC66h4TDTJFzzBm7iu28o4RZsIWiDnU2ESCyBRaXiesOHI
+2m0vwdYfMG0CgYEAlrvHUqJ7eEWc9cizl9oE70wBynawfrL9R2bf4KKmjaT1vnno
+vrR4SlfcR7+LfMp11eSE/ps4cWK9ur4AhPeeb+FA9BWp74N8BV4AD43OUXcGsRsG
+j6+ffbiWLlFh7UruBh8b/IvdtbO1R3jBzMKFmMrLC+2l58/Xfwfac3UW9BMCgYEA
+hiGZ6ofGB/mSaOWZT7P+Iw1c/jgAjtuC3YNCkck4m+cnLyB4G3JXUJGHv2ehFmGE
+XOwqDTnd6OwrdSs6ZGuH7uOLxu4T8UmlRzxVZHSAzJKLysDz4X4aTOAGnM9Y7pv6
+R456rIRJmLVJdqYN7wRaav6yXpo+OMojAHDlh+/61UECgYBauDxaPa3/rTlP3xs5
+8vmHp1HtgD3PDzNoQFUeyF+wKyTuc1kr+0mbqrF+aFA4/WweoSjzfBydsvvvxK0Q
+ZEFcGc5X+1N6HLhblddWKCE4kavDqC86nWeMuH1RK+6QHINN2XW98XTW85jnr0V6
+Kn4XYfXFvjbpfWiTMxHHTvEymQ==
+-----END PRIVATE KEY-----
+
