@@ -9,7 +9,7 @@ Our project was made using the cryptography library in python.
 Type in terminal:
 pip install cryptography --upgrade
 
-2. Make sure sure you save the server.key (Appendix B) and the client.key (Appendix C) in a folder called certs in the same directory you run the code in. 
+2. Make sure sure you save the server.key and the client.key in a folder called certs in the same directory you run the code in. 
 
 3. Save and keep the dh.py in the same directory as all the other python scripts.
 
